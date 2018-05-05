@@ -6,7 +6,7 @@ from pandas_datareader import data
 import pandas_datareader.data as web
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('airline_safety.csv')
+df = pd.read_csv('Data/airline_safety.csv')
 
 print (df.head())
 
